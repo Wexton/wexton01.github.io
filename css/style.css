@@ -1,0 +1,450 @@
+@font-face{
+  font-family: Merriweather;
+  src: url(../fonts/Merriweather-LightItalic.ttf);
+  }
+
+nav{
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+nav .main_list li{
+  list-style-type: none;
+  display: inline;
+}
+
+li a{
+padding: 0px 20px;
+color: #555555;
+}
+
+nav .main_list li a:hover{
+ text-decoration: none;
+ cursor: pointer;
+}
+
+nav .main_list li a:focus{
+font-weight: 700;
+text-decoration: none;
+}
+
+.magic_list{
+  display: none;
+}
+
+.name_of_company{
+  display: none;
+}
+
+.title{
+  font-size: 50px;
+ }
+
+.description{
+  color: #9D9D9D;
+  font-size: 16px;
+  font-family: Merriweather;
+  
+}
+
+.read_more{
+  border: 1px solid black;
+  background-color: #fff;
+  width: 150px;
+  padding: 10px;
+  font-weight: 700;
+  margin-top: 25px;
+  color: black;
+  margin-bottom: 200px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.history{
+  background-image: url(../images/bg2.png);
+  height: 1000px;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+.y2011{
+ width: 30%;
+ text-align: right;
+ margin-left: 10%;
+ margin-top: 95px;
+}
+
+.descr{
+  color: grey;
+}
+
+.yeartitle{
+  font-size: 40px;
+}
+
+.y2012{
+  float: right;
+ width: 30%;
+ text-align: left;
+ margin-right: 10%;
+}
+
+.y2013{
+ width: 30%;
+ text-align: right;
+ margin-left: 10%;
+ margin-top: 170px;
+}
+
+.y2014{
+  float: right;
+ width: 30%;
+ text-align: left;
+ margin-right: 10%;
+ margin-top: 70px;
+}
+
+.members{
+  height: 700px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.members_title{
+  font-size: 35px;
+  }
+
+ .profile1, .profile3{
+  margin-top: 200px;
+  margin-bottom: 200px;
+ } 
+
+.profile2{
+ margin-top: 100px;
+}
+
+.profiles_photo{
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.profiles_name{
+  color: #464646;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.profiles_position{
+  color: grey;
+}
+
+.sn{
+  margin-top: 10px;
+  color: grey;
+  font-size: 30px;
+}
+
+.sn2{
+  margin-left: 20px;
+  color: grey;
+  font-size: 30px;
+}
+
+.provide{
+  background-image: url(../images/bg3.png);
+  margin-top: 100px;
+  height: 1200px;
+  background-size: 100% 100%;
+  text-align: center;
+  margin-bottom: 100px;
+
+  }
+
+.provide_title{
+  padding-top: 200px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.opp{
+  padding-top: 100px;
+  text-align:center;
+  padding-bottom: 200px;
+}
+
+.opp_img{
+  display: block;
+  margin: auto;
+}
+
+.opp_title{
+  color: #fff;
+  font-size: 30px;
+}
+
+.opp_descr{
+  color: grey;
+}
+
+.blog{
+  color: black;
+  width: 180px;
+  padding: 10px;
+  background-color: #fff;
+  }
+
+.blog a{
+color: black;  
+}
+
+.data{
+  text-align: center;
+}
+
+.contact_title{
+  font-size: 30px;
+}
+
+.ways{
+  margin-top: 50px;
+}
+
+.form-contact{
+  margin-top: 150px;
+}
+
+.name{
+  height: 50px;
+  width: 770px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.message{
+ width: 770px;
+ height: 190px;
+ margin-bottom: 20px;
+ padding-left: 20px;
+ padding-bottom: 110px;
+}
+
+.submit{
+  height: 50px;
+  width: 770px;
+  font-weight: 700;
+  background-color: black;
+  color: #fff;
+}
+
+.rights{
+  margin-top: 155px;
+  text-align: center;
+  color: grey;
+}
+
+.toggle{
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 30px;
+  display: none;
+}
+
+.magic_logo{
+  display: none;
+}
+
+@media only screen and (max-width: 1209px){
+
+
+.descr{
+  font-size: 12px;
+}
+
+}
+
+@media only screen and (max-width: 993px){
+
+.history{
+   height: 800px;
+ }
+
+ .yeartitle{
+  font-size: 30px;
+}
+
+.descr{
+  font-size:8px;
+}
+
+.y2011{
+width: 40%;
+margin-left: 0px;
+}
+
+.y2013{
+width: 40%;
+margin: 120px 0px;
+}
+
+.y2012{
+  width: 40%;
+  margin-right: 0px;
+}
+
+.y2014{
+  width: 40%;
+  margin-right: 0px;
+  margin-top: -80px;
+}
+}
+
+@media only screen and (max-width: 767px){
+.profile1, .profile2 , .profile3{
+  margin: 10px;
+  border-bottom: 1px solid silver; 
+}
+
+.profile1{
+  margin-top:30px;
+ }
+
+.members{
+  height: 1029px;
+}
+
+.opp_margin {
+ margin-top: 30px;
+}
+
+.opp_img{
+  height: 80px;
+}
+
+.opp{
+  padding-top: 0px;
+}
+
+.opp_title{
+  font-size: 20px;
+}
+
+.y2012{
+  margin-top: -30px;
+}
+
+.y2014{
+  margin-top: -100px;
+}
+
+.name, .message, .submit{
+  width: 100%;
+}
+
+
+.toggle{
+  display: inline-block;
+    }
+
+.magic_logo{
+  display: block;
+  float: left;
+  margin-top: -55px;
+  font-size: 30px;
+  
+}
+
+.main_list{
+    display: none;
+    }
+
+.magic_list{
+width: 100%;
+}
+
+.magic_list li{
+  list-style-type: none;
+  font-size: 20px;
+}
+
+
+
+.menu{
+   float: right;
+}
+
+
+.active{
+    display: block;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 500px){
+
+.provide{
+  height: 1300px;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+
+.history{
+    height: 500px;
+ }
+
+
+ .yeartitle{
+  font-size: 10px;
+}
+
+.y2011{
+margin-top: 50px;
+}
+
+.y2012{
+margin-top: -50px;
+}
+
+.y2013{
+margin-top: 60px;
+}
+
+.y2014{
+margin-top: -160px;
+}
+}
+
+@media only screen and (max-width: 400px){
+
+
+.y2012{
+margin-top: -30px;
+}
+
+.y2014{
+margin-top: -180px;
+}
+}
+
+@media only screen and (max-width: 350px){
+
+.y2012{
+margin-top: -50px;
+}
+
+.y2013{
+margin-top: 40px;
+}
+
+.y2014{
+margin-top: -180px;
+}
+}
